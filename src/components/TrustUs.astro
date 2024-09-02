@@ -1,0 +1,116 @@
+<div
+  class="w-[100%] px-12 flex justify-center items-center"
+  style="background: linear-gradient(107.49deg, #8fcfd3 -45.96%, #fbfffd 23.24%);"
+>
+  <div class="scroll-parent">
+    <div class="scroll-element primary">
+      <img
+        class="h-[60%] object-scale-down"
+        src="/src/assets/trustUs/1.png"
+        alt="damilola jerugba"
+      />
+      <!-- <img class="h-[60%] object-scale-down" src="/src/assets/trustUs/2.png" alt="damilola jerugba" /> -->
+      <img
+        class="h-[60%] object-scale-down"
+        src="/src/assets/trustUs/3.png"
+        alt="damilola jerugba"
+      />
+      <img
+        class="h-[60%] object-scale-down"
+        src="/src/assets/trustUs/4.png"
+        alt="damilola jerugba"
+      />
+      <img
+        class="h-[60%] object-scale-down"
+        src="/src/assets/trustUs/5.png"
+        alt="damilola jerugba"
+      />
+      <img
+        class="h-[60%] object-scale-down"
+        src="/src/assets/trustUs/6.png"
+        alt="damilola jerugba"
+      />
+    </div>
+    <div class="scroll-element secondary">
+      <img
+        class="h-[60%] object-scale-down"
+        src="/src/assets/trustUs/1.png"
+        alt="damilola jerugba"
+      />
+      <!-- <img class="h-[60%] object-scale-down" src="/src/assets/trustUs/2.png" alt="damilola jerugba" /> -->
+      <img
+        class="h-[60%] object-scale-down"
+        src="/src/assets/trustUs/3.png"
+        alt="damilola jerugba"
+      />
+      <img
+        class="h-[60%] object-scale-down"
+        src="/src/assets/trustUs/4.png"
+        alt="damilola jerugba"
+      />
+      <img
+        class="h-[60%] object-scale-down"
+        src="/src/assets/trustUs/5.png"
+        alt="damilola jerugba"
+      />
+      <img
+        class="h-[60%] object-scale-down"
+        src="/src/assets/trustUs/6.png"
+        alt="damilola jerugba"
+      />
+    </div>
+  </div>
+</div>
+
+<style>
+  .colorbg {
+  }
+
+  .scroll-parent {
+    position: relative;
+    width: 100%;
+    height: 149px;
+    overflow-x: hidden;
+  }
+
+  .scroll-element {
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+  }
+
+  .scroll-element img {
+    width: 15%;
+  }
+
+  .primary {
+    animation: primary 10s linear infinite;
+  }
+
+  .secondary {
+    animation: secondary 10s linear infinite;
+  }
+
+  @keyframes primary {
+    from {
+      left: 0%;
+    }
+    to {
+      left: -100%;
+    }
+  }
+
+  @keyframes secondary {
+    from {
+      left: 100%;
+    }
+    to {
+      left: 0%;
+    }
+  }
+</style>
